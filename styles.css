@@ -31,8 +31,8 @@ html {
           justify-content: space-between;
   background-color: #FBD559;
   color: #FFF;
-  height: 13%;
   padding: 1em;
+  border-bottom: 2px solid black;
 }
 
 .menu {
@@ -118,6 +118,14 @@ html {
   margin-top: 0px;
   -webkit-transform: rotate(-405deg);
           transform: rotate(-405deg);
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("img/background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 700px) {
