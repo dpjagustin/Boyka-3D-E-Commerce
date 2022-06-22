@@ -2,8 +2,8 @@
 
 // Variables
 
-$priColor: #FBD559;
-$secColor: #10615B;
+$colorOne: #FBD559;
+$colorTwo: #10615B;
 
 // General
 
@@ -14,8 +14,9 @@ $secColor: #10615B;
   font-family: 'Montserrat', sans-serif;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 // Header & Hero
@@ -29,7 +30,7 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #FBD559;
+  background-color: $colorOne;
   color: #FFF;
 //   height: 10%;
   padding: 1em;
@@ -46,7 +47,7 @@ html {
 
 .logo {
 	margin: 0;
-	width: 4rem;
+	width: 3rem;
 }
 
 .menu > li {
@@ -72,7 +73,7 @@ html {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: $colorTwo;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -105,12 +106,27 @@ html {
 }
 
 .hero {
+    width: 100%;
     height: 100vh;
     background-image: url("img/background1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.logo-hero {
+    margin: 0;
+
+    img {
+      size: 100%;
+    }
+}
+
+
 
 // Media Queries
 
@@ -159,3 +175,4 @@ html {
     border-bottom: 1px solid #444;
   }
 }
+
