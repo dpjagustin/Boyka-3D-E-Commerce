@@ -55,6 +55,14 @@ html, body {
   width: 3rem;
 }
 
+.title-nav {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #10615B;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 0.6rem;
+}
+
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
@@ -150,9 +158,8 @@ html, body {
 }
 
 .logo-hero img {
-  margin-top: 3.5rem;
-  width: 70%;
-  height: 70%;
+  margin-top: 2.5rem;
+  width: 70vw;
 }
 
 .text-hero {
@@ -161,6 +168,13 @@ html, body {
 
 .text-hero h2 {
   font-family: 'Libre Franklin', sans-serif;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+.productos {
+  width: 100%;
+  height: 100vh;
 }
 
 @media (max-width: 700px) {
