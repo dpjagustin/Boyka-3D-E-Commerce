@@ -29,7 +29,7 @@
               <li><a href="">Inicio</a></li>
               <li><a href="">Productos</a></li>
               <li><a href="">Nosotros</a></li>
-              <li>Contacto</li>
+              <li><a href="">Contacto</a></li>
             </ul>
         </nav>
 
@@ -39,8 +39,8 @@
             </div>
             
             <div class="text-hero">
-                <h2>DE TU MENTE</h2>
-                <h2>A TUS MANOS</h2>
+                <h2 class="subtitle-effect">DE TU MENTE</h2>
+                <h2 class="subtitle-effect2">A TUS MANOS</h2>
             </div>
         </div>
     </header>
@@ -49,7 +49,7 @@
         <!-- Sección productos  -->
         <div class="productos">
             <div class="productos-title">
-                <h2> <span class="productos-span">algunas de</span> NUESTRAS CREACIONES</h2>
+                <h2> <span class="productos-span">un spoiler de</span> NUESTRAS CREACIONES</h2>
             </div>
 
             <div class="carrusel">
@@ -63,6 +63,9 @@
                       </div>
                       <div class="carousel-item">
                         <img src="img/3.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="img/4.png" class="d-block w-100" alt="...">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -80,7 +83,7 @@
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="img/4.png" class="d-block w-100" alt="...">
+                        <img src="img/11.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
                         <img src="img/5.png" class="d-block w-100" alt="...">
@@ -123,6 +126,10 @@
                     </button>
                 </div>
             </div>
+
+            <div class="productos-shop-link">
+                <button type="button" class="btn btn-success "><a href="" class="shop-btn">TIENDA</a> <i class="fa-solid fa-shop shop-icon"></i></i></button>
+            </div>
         </div>
 
         <!-- Sección Nosotros  -->
@@ -132,11 +139,34 @@
             </div>
 
             <div class="nosotros-content">
-                
+              <div class="accordion-wrapper">
+                <div class="accordion">
+                  <input type="radio" name="radio-a" id="check1" checked>
+                  <label class="accordion-label" for="check1">Nosotros</label>
+                  <div class="accordion-content">
+                    <p>Somos una empresa familiar que se dedica a la impresión 3D y a la sublimación.</p>
+                  </div>
+                </div>
+                <div class="accordion">
+                  <input type="radio" name="radio-a" id="check2">
+                  <label class="accordion-label" for="check2">Misión</label>
+                  <div class="accordion-content">
+                    <p>Llevar todas esas ideas de la mente hasta un producto tangible, desde cosas locas hasta objetos cotidianos pero con una personalización única.</p>
+                  </div>
+                </div>
+                <div class="accordion">
+                  <input type="radio" name="radio-a" id="check3">
+                  <label class="accordion-label" for="check3">¿Como trabajamos?</label>
+                  <div class="accordion-content">
+                    <p>Por encargo a través de las redes sociales o por nuestra tienda online se pueden ver los productos en stock</p>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </main>
-    <!-- CDN JS Bootstrap  -->
+    <!-- CDN JS Bootstrap & Fontawesome -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/78da2b5c9a.js" crossorigin="anonymous"></script>
 </body>
 </html>
