@@ -26,10 +26,9 @@
             </label>
     
             <ul class="menu">
-              <li><a href="">Inicio</a></li>
-              <li><a href="">Productos</a></li>
-              <li><a href="">Nosotros</a></li>
-              <li><a href="">Contacto</a></li>
+              <li><a href="index.html#productos">Productos</a></li>
+              <li><a href="index.html#nosotros">Nosotros</a></li>
+              <li><a href="index.html#contacto">Contacto</a></li>
             </ul>
         </nav>
 
@@ -47,7 +46,7 @@
 
     <main>
         <!-- Sección productos  -->
-        <div class="productos">
+        <div class="productos" id="productos">
             <div class="productos-title">
                 <h2> <span class="productos-span">un spoiler de</span> NUESTRAS CREACIONES</h2>
             </div>
@@ -133,7 +132,7 @@
         </div>
 
         <!-- Sección Nosotros  -->
-        <div class="nosotros">
+        <div class="nosotros" id="nosotros">
             <div class="nosotros-title">
                 <h2>¿QUIENES SOMOS?</h2>
             </div>
@@ -167,19 +166,18 @@
 
         <!-- Sección Contacto  -->
 
-        <div class="contacto">
+      <div class="contacto" id="contacto">
           <div class="contacto-title">
             <h2>ENCONTRANOS</h2>
           </div>
 
           <div class="media-contacto">
-            <a href="https://www.linkedin.com/in/dpjagustin/" target="_blank"><img src="img/whatsapp-icon.png" alt="Icono de LinkedIn"></a>
-            <a href="#" target="_blank"><img src="img/instagram-icon.png" alt="Icono de Instagram."></a>
+            <a href="https://wa.me/5493517685523" target="_blank"><img src="img/whatsapp-icon.png" alt="Icono de LinkedIn"></a>
+            <a href="https://www.instagram.com/boyka.3d/" target="_blank"><img src="img/instagram-icon.png" alt="Icono de Instagram."></a>
           </div>
-        </div>
 
-        <form class="form">
-          <legend><h4>Envíame un mensaje</h4></legend>
+        <form class="form-contact">
+          <legend><h4>O ENVÍANOS UN MENSAJE</h4></legend>
 
           <input type="text" placeholder="Nombre">
           <input type="email" placeholder="Email">
@@ -188,8 +186,16 @@
           <button class="btn-submit">
               Enviar mensaje
           </button>
-      </form>
+        </form>
     </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>BOYKA 3D</h2>
+            <img src="img/Logo.png" alt="">
+            <p>Todos los derechos reservados © </p>
+        </div>
+    </footer>
     <!-- CDN JS Bootstrap & Fontawesome -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/78da2b5c9a.js" crossorigin="anonymous"></script>
