@@ -174,7 +174,65 @@ html, body {
 
 .productos {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productos-title span {
+  font-size: 1rem;
+}
+
+.productos-title h2 {
+  text-align: center;
+  padding: 2.6rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 800;
+  color: #10615B;
+}
+
+.carrusel {
+  margin-bottom: 4rem;
+  width: 82%;
+}
+
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
+  background-image: url(img/10_50op.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nosotros-title h2 {
+  text-align: center;
+  padding: 2.6rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 800;
+  color: #10615B;
+}
+
+.nosotros-title .nosotros-content {
+  width: 80%;
 }
 
 @media (max-width: 700px) {
