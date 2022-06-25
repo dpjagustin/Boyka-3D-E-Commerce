@@ -68,12 +68,12 @@ html, body {
 }
 
 @keyframes animate {
-0% {
-  background-position: -500%;
-}
-100% {
-  background-position: 500%;
-}
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
 
 .menu {
@@ -168,7 +168,6 @@ html, body {
     img {
       margin-top: 2.5rem;
       width: 70vw;
-      // height: 60vh;
     }
 }
 
@@ -226,6 +225,11 @@ html, body {
     color: $colorOne;  
 }
 
+.shop-btn:hover {
+  color: $colorOne;
+  text-shadow: 0px 0px 10px $colorOne;
+}
+
 .shop-icon {
   font-size: 1.5rem;
   color: white;
@@ -237,11 +241,12 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
   background-image: url(img/10_50op.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .nosotros-title {
@@ -451,6 +456,7 @@ input:checked ~ .accordion-content {
     font-size: 2rem;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 800;
+    padding-top: 1rem;
   }
 
   img{
@@ -511,6 +517,10 @@ input:checked ~ .accordion-content {
       font-family: 'Libre Franklin', sans-serif;
       color: white;
       text-decoration: none;
+    }
+
+    a:hover {
+      text-shadow: 0 0 10px $colorOne;
     }
   }
 

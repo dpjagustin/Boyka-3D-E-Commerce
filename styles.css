@@ -278,6 +278,11 @@ html, body {
   color: #FBD559;
 }
 
+.shop-btn:hover {
+  color: #FBD559;
+  text-shadow: 0px 0px 10px #FBD559;
+}
+
 .shop-icon {
   font-size: 1.5rem;
   color: white;
@@ -294,11 +299,12 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 110vh;
   background-image: url(img/10_50op.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .nosotros-title h2 {
@@ -549,6 +555,7 @@ input:checked ~ .accordion-content {
   font-size: 2rem;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 800;
+  padding-top: 1rem;
 }
 
 .footer-content img {
@@ -615,6 +622,9 @@ input:checked ~ .accordion-content {
     font-family: 'Libre Franklin', sans-serif;
     color: white;
     text-decoration: none;
+  }
+  .menu > li a:hover {
+    text-shadow: 0 0 10px #FBD559;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
